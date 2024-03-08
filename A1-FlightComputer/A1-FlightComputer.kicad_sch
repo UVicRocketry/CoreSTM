@@ -1,0 +1,1284 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "623a91b3-8d7c-4296-9e9a-e3a962cdddfa")
+	(paper "A4")
+	(title_block
+		(title "Anduril-1 Flight Computer")
+		(date "2024-02-22")
+		(rev "V1.0")
+		(company "UVic Rocketry")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 203.2 130.81)
+		(uuid "1f499c9d-e8c6-499f-9b90-c988fecae413")
+	)
+	(no_connect
+		(at 218.44 130.81)
+		(uuid "9b67484a-be72-425d-aeef-03a4214a9806")
+	)
+	(no_connect
+		(at 210.82 130.81)
+		(uuid "aeae33f4-6842-4eee-b80b-7817492b8f7b")
+	)
+	(no_connect
+		(at 226.06 130.81)
+		(uuid "b352f700-059a-4f48-98f9-6e0feca55a61")
+	)
+	(wire
+		(pts
+			(xy 108.077 120.65) (xy 126.492 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1254df5e-24c1-4480-bc0e-d246050334f6")
+	)
+	(wire
+		(pts
+			(xy 108.077 50.8) (xy 126.492 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130084f3-0190-453b-b20c-34b854f00b94")
+	)
+	(wire
+		(pts
+			(xy 108.077 118.745) (xy 126.492 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a58621b-19ea-4544-98de-003cd9616304")
+	)
+	(wire
+		(pts
+			(xy 108.077 88.9) (xy 126.492 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27420334-de5c-421b-b7b2-8999b39bf88e")
+	)
+	(wire
+		(pts
+			(xy 108.077 73.025) (xy 126.492 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3089a443-00a0-4106-8299-96d3b75324f4")
+	)
+	(wire
+		(pts
+			(xy 108.077 82.55) (xy 126.492 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40128613-255a-4808-985b-94aca2eebfe4")
+	)
+	(wire
+		(pts
+			(xy 108.077 99.695) (xy 126.492 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c86d372-b921-4d67-ba73-c289dcb91721")
+	)
+	(wire
+		(pts
+			(xy 108.077 76.835) (xy 126.492 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ddbccf-ccdb-4f5d-a053-bcc22dcb3cae")
+	)
+	(wire
+		(pts
+			(xy 108.077 108.585) (xy 126.492 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3d0e51-5e47-432d-bdf7-8c5b6014a2ce")
+	)
+	(wire
+		(pts
+			(xy 108.077 93.98) (xy 126.492 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e33960-4c2c-472e-aff7-baf132d6975b")
+	)
+	(wire
+		(pts
+			(xy 108.077 52.705) (xy 126.492 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d8c0fb-5603-4619-beae-d6cce25acc47")
+	)
+	(wire
+		(pts
+			(xy 108.077 114.3) (xy 126.492 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7071aa1-b03b-4d4c-826c-aeb03712e4e9")
+	)
+	(wire
+		(pts
+			(xy 108.077 78.74) (xy 126.492 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8502e39-668b-4334-a2ee-a325ef6e4556")
+	)
+	(wire
+		(pts
+			(xy 108.077 86.995) (xy 126.492 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6a49d8-ee83-4621-905e-79b3ee642760")
+	)
+	(wire
+		(pts
+			(xy 108.077 112.395) (xy 126.492 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4da7df4-a32f-485e-9e98-acb259e5da7e")
+	)
+	(wire
+		(pts
+			(xy 108.077 102.87) (xy 126.492 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57ddbc7-31c3-45f4-8ea3-223a190b29e9")
+	)
+	(wire
+		(pts
+			(xy 108.077 71.12) (xy 126.492 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24d0cb2-d360-4f13-a1bc-3edbcd85b080")
+	)
+	(wire
+		(pts
+			(xy 108.077 69.215) (xy 126.492 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d907dc22-9fa6-4cf7-8d08-857b17d86e87")
+	)
+	(wire
+		(pts
+			(xy 108.077 97.79) (xy 126.492 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc8bbd8-33eb-4e93-9920-a3f6e40a8286")
+	)
+	(wire
+		(pts
+			(xy 108.077 92.075) (xy 126.492 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e664e52c-d8a6-47ec-b3cf-9cf49a9526e4")
+	)
+	(wire
+		(pts
+			(xy 108.077 46.736) (xy 126.492 46.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbd5b04-18b0-4ac6-ad28-2c66eeb7b849")
+	)
+	(wire
+		(pts
+			(xy 108.077 80.645) (xy 126.492 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80d8a0b-146d-4e32-80cb-a7e2640b6c0b")
+	)
+	(wire
+		(pts
+			(xy 108.077 104.775) (xy 126.492 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bbdf8d-e211-44e3-aa98-232c766ec638")
+	)
+	(wire
+		(pts
+			(xy 108.077 67.31) (xy 126.492 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2e1d73-9881-4a07-b007-15fedd34168b")
+	)
+	(wire
+		(pts
+			(xy 108.077 125.095) (xy 126.492 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd4fad1-a6ae-4f89-b563-48618ffc96ce")
+	)
+	(text "USB Debug\nUSB OTG\nST-Link Programming\nPressure / Temperature / Humidity\nLow Accelleration IMU\nHigh Accelleration  IMU\nI/O Breakout\nADC 		Battery Checking\n2x UART\n1x I2C\n4x GPIO		Strain Guages\n1x GPIO	(A)	Payload Temp\n2x GPIO		LEDs\nSPI			Flash Chip \nSDMMC		SD card?\nPayload temp sensors\nPayload linear actuator\n"
+		(exclude_from_sim no)
+		(at 197.866 91.821 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7656647a-e9db-4168-a73c-c7089cee72a9")
+	)
+	(text "NOTE: All TX/RX connectors are switched at the MICROCONTROLLER connection"
+		(exclude_from_sim no)
+		(at 19.685 19.431 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9a8013b-ca37-4a19-b28e-6e8e999664bd")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 218.44 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "512bc02f-39b5-4445-9f90-3c8eb9cd4934")
+		(property "Reference" "H103"
+			(at 218.44 123.317 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 220.98 128.2121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5f2b378-ffd5-4b12-a9be-1c092519bcc2")
+		)
+		(instances
+			(project "A1-FlightComputer"
+				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa"
+					(reference "H103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 210.82 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "791ac985-a738-45bf-956d-0cc5767da1de")
+		(property "Reference" "H102"
+			(at 210.82 123.317 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 213.36 128.2121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f41b3da-76ca-4459-b0ca-98f47b3e3cb2")
+		)
+		(instances
+			(project "A1-FlightComputer"
+				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa"
+					(reference "H102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 203.2 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "797ee4ca-185c-4b91-ab21-e7ed440f18b8")
+		(property "Reference" "H101"
+			(at 203.2 123.317 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 205.74 128.2121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e6a10c5-dbbf-4ee5-986b-984f44d0adac")
+		)
+		(instances
+			(project "A1-FlightComputer"
+				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa"
+					(reference "H101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 226.06 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9bea211-7bff-4e90-8a6c-70b2818d7b50")
+		(property "Reference" "H104"
+			(at 226.06 123.317 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 228.6 128.2121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d9be0b0-7c4b-41a6-a89a-4182e14121fb")
+		)
+		(instances
+			(project "A1-FlightComputer"
+				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa"
+					(reference "H104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 126.492 30.988)
+		(size 29.464 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93df2493-30a1-43ba-8661-883f0577d8a5")
+		(property "Sheetname" "Power"
+			(at 126.492 30.2764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 126.492 55.7026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_BATT_SENSE" input
+			(at 126.492 46.736 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "385191b8-213e-477c-b0df-023a7ce23347")
+		)
+		(pin "USB_D-" input
+			(at 126.492 52.705 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1298d118-0613-41b0-8c48-2e0f92ee8670")
+		)
+		(pin "USB_D+" input
+			(at 126.492 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b84d83c-93b4-47f9-b995-393f2e575850")
+		)
+		(instances
+			(project "A1-FlightComputer"
+				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 126.492 63.627)
+		(size 37.846 67.183)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b145971b-5852-4b5f-bde0-9aa21e484183")
+		(property "Sheetname" "Peripherals"
+			(at 126.492 62.9154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 126.492 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED2" input
+			(at 126.492 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "df5c0842-aef8-4404-8fdb-a1a1b11e76e1")
+		)
+		(pin "LED3" input
+			(at 126.492 73.025 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5236ff20-dbbb-45ab-840d-2a7d7f123aca")
+		)
+		(pin "LED0" input
+			(at 126.492 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05aa06ed-0de4-45ef-9c67-a9038d29680f")
+		)
+		(pin "LED1" input
+			(at 126.492 69.215 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3924de37-5fbf-42e7-987b-04aebdeb3a8e")
+		)
+		(pin "I2C_SCL" input
+			(at 126.492 86.995 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b531a6d-3b93-4802-a99c-46daf3a429d3")
+		)
+		(pin "BME_CS" input
+			(at 126.492 99.695 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5ca4b13-4ce3-4ea4-9368-a143cb178ed3")
+		)
+		(pin "BME_INT" input
+			(at 126.492 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c215e40-6a58-40d5-b9d5-7da80d28b838")
+		)
+		(pin "LSM_INT1" input
+			(at 126.492 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e98233cc-8fa6-403c-9261-bfffd23132ee")
+		)
+		(pin "LSM_INT2" input
+			(at 126.492 104.775 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b36e7c8d-d9e3-4955-b81a-afbb65f11015")
+		)
+		(pin "STG0" input
+			(at 126.492 76.835 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bfe24c3b-83c7-4405-bb22-5e2d5332ba92")
+		)
+		(pin "STG1" input
+			(at 126.492 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0f0020c7-3689-418c-a550-f75ef42e4f5c")
+		)
+		(pin "STG2" input
+			(at 126.492 80.645 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bc27f25f-6a51-4c68-b977-5919bb6a8b51")
+		)
+		(pin "STG3" input
+			(at 126.492 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a111433-378f-4c55-ab9a-4a846dbd9d2a")
+		)
+		(pin "I2C_SDA" input
+			(at 126.492 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c062c756-61dd-4fc8-80bf-4e5af05e5eb4")
+		)
+		(pin "ADX_INT1" input
+			(at 126.492 92.075 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b89b324-e27e-48d7-bd48-60be92d9a598")
+		)
+		(pin "ADX_INT2" input
+			(at 126.492 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36433be6-8eff-4ee1-960d-f77b8e0119f2")
+		)
+		(pin "Payload_TEMP" input
+			(at 126.492 108.585 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea601bb2-a242-41a7-bbac-9f870a43d493")
+		)
+		(pin "Actuator_IN2" input
+			(at 126.492 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02e792ef-5d9d-474a-bb4c-3ff56adceab5")
+		)
+		(pin "Actuator_IN1" input
+			(at 126.492 112.395 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "84e9b647-dc0d-4029-8a9d-c4d21295dca1")
+		)
+		(pin "LoRa_TX" input
+			(at 126.492 118.745 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af3cfb69-bf5f-44cd-8f1f-a87d5606c5fe")
+		)
+		(pin "LoRa_RX" input
+			(at 126.492 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73a7ec6f-01f3-4e2b-b466-b3df614739fd")
+		)
+		(pin "GoPro_ON" input
+			(at 126.492 125.095 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af501781-8ebb-4fe0-a28f-4d81b3f38f12")
+		)
+		(instances
+			(project "A1-FlightComputer"
+				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.454 39.37)
+		(size 31.623 91.44)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4877fc3-9e28-4e90-bc65-7a6d47fa4f14")
+		(property "Sheetname" "STM32"
+			(at 76.454 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32.kicad_sch"
+			(at 76.454 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 108.077 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b608042c-98c5-4022-a7c1-f7c4f56e4698")
+		)
+		(pin "I2C_SCl" input
+			(at 108.077 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "183e8d9a-b00d-4fe4-af57-8dba910f01b7")
+		)
+		(pin "LED1" input
+			(at 108.077 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e9d58634-aa71-454d-90fd-c5dd6ee4617a")
+		)
+		(pin "LED2" input
+			(at 108.077 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aab40755-91c7-4d6e-a57d-3bf1391d46ac")
+		)
+		(pin "LED3" input
+			(at 108.077 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eb83a030-601e-4fec-b5b9-dd29f51d2680")
+		)
+		(pin "LED0" input
+			(at 108.077 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d97f0ded-7a34-4ad8-b3ea-597c7b781ddd")
+		)
+		(pin "STG0" input
+			(at 108.077 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "33aec379-f9e2-47ea-a790-69b9e8291a8f")
+		)
+		(pin "STG1" input
+			(at 108.077 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4ddcfe1c-594f-45b2-b7c2-948d054a8f76")
+		)
+		(pin "STG2" input
+			(at 108.077 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40274dd0-ece0-4a40-a947-8abf4bf737b1")
+		)
+		(pin "STG3" input
+			(at 108.077 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d11159db-2066-4875-a324-70f1bcb01bd2")
+		)
+		(pin "BME_INT" input
+			(at 108.077 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3244ed9e-3abe-4a3b-b0f3-b9b350aba95a")
+		)
+		(pin "BME_CS" input
+			(at 108.077 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e17d4ca-38f0-4c52-8486-8dda04b01180")
+		)
+		(pin "LSM_INT2" input
+			(at 108.077 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb01a5cb-386a-495d-be6c-4a61bffd25c7")
+		)
+		(pin "LSM_INT1" input
+			(at 108.077 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "289dbd64-46b8-43fc-8d98-9c7d92fb0dec")
+		)
+		(pin "Payload_TEMP" input
+			(at 108.077 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c3c6cefd-cbc3-495a-83fd-0614890fc950")
+		)
+		(pin "ADX_INT1" input
+			(at 108.077 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3406a790-fff4-47a9-b0fc-1803038157fa")
+		)
+		(pin "ADX_INT2" input
+			(at 108.077 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "14c283f6-c70b-49c2-8bf9-bf4a468af769")
+		)
+		(pin "V_BATT_SENSE" input
+			(at 108.077 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f818a0b0-d23e-42c4-9a42-4a29f073fb0d")
+		)
+		(pin "Actuator_IN2" input
+			(at 108.077 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37773f2f-92e9-4a8b-86e0-503c1a1c8bdd")
+		)
+		(pin "Actuator_IN1" input
+			(at 108.077 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f5badf8-b8f1-4718-aa99-30d0e7f21821")
+		)
+		(pin "LoRa_TX" input
+			(at 108.077 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dbcf73e1-e37f-4e4f-a4b8-2765cf0dea16")
+		)
+		(pin "LoRa_RX" input
+			(at 108.077 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "223ff0d1-f884-402d-8317-bb58f01ef4b6")
+		)
+		(pin "GoPro_ON" input
+			(at 108.077 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "518cd8ef-f459-4fdd-abd0-b1c61185cebb")
+		)
+		(pin "USB_D+" input
+			(at 108.077 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f3ec2c0e-a848-4fc0-8d0c-b4b0a9159142")
+		)
+		(pin "USB_D-" input
+			(at 108.077 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01236aa2-97fa-4dda-b5a9-ffe2c2b7b697")
+		)
+		(instances
+			(project "A1-FlightComputer"
+				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

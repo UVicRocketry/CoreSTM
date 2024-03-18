@@ -1,0 +1,35 @@
+# Ignore everything in the build directory
+build/*
+
+# Ignore all .bin, .hex, .elf files
+*.bin
+*.hex
+*.elf
+
+# Ignore all .o, .d files (object files and dependency files)
+*.o
+*.d
+
+# Ignore all .lst, .map files (listing files and map files)
+*.lst
+*.map
+
+# Ignore all .su files (size report files)
+*.su
+
+# Ignore all .bak, .swp, .swo files (backup files and swap files from vim)
+*.bak
+*.swp
+*.swo
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Eclipse project files
+.settings/
+.project
+.cproject
+
+# Ignore STM32CubeIDE project files
+.stm32cubemx

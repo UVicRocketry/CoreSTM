@@ -57,6 +57,44 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define LED0_Pin GPIO_PIN_0
+#define LED0_GPIO_Port GPIOC
+#define LED1_Pin GPIO_PIN_1
+#define LED1_GPIO_Port GPIOC
+#define LED2_Pin GPIO_PIN_2
+#define LED2_GPIO_Port GPIOC
+#define LED3_Pin GPIO_PIN_3
+#define LED3_GPIO_Port GPIOC
+#define STG0_Pin GPIO_PIN_0
+#define STG0_GPIO_Port GPIOA
+#define STG1_Pin GPIO_PIN_1
+#define STG1_GPIO_Port GPIOA
+#define STG2_Pin GPIO_PIN_2
+#define STG2_GPIO_Port GPIOA
+#define STG3_Pin GPIO_PIN_3
+#define STG3_GPIO_Port GPIOA
+#define Actuator1_Pin GPIO_PIN_4
+#define Actuator1_GPIO_Port GPIOA
+#define Actuator2_Pin GPIO_PIN_5
+#define Actuator2_GPIO_Port GPIOA
+#define PayloadTemp_Pin GPIO_PIN_2
+#define PayloadTemp_GPIO_Port GPIOB
+#define GoPro_ON_Pin GPIO_PIN_12
+#define GoPro_ON_GPIO_Port GPIOB
+#define ADX_INT2_Pin GPIO_PIN_6
+#define ADX_INT2_GPIO_Port GPIOC
+#define ADX_INT1_Pin GPIO_PIN_7
+#define ADX_INT1_GPIO_Port GPIOC
+#define LSM_INT2_Pin GPIO_PIN_8
+#define LSM_INT2_GPIO_Port GPIOC
+#define LSM_INT1_Pin GPIO_PIN_9
+#define LSM_INT1_GPIO_Port GPIOC
+#define BME_CS_Pin GPIO_PIN_8
+#define BME_CS_GPIO_Port GPIOA
+#define BME_INT_Pin GPIO_PIN_9
+#define BME_INT_GPIO_Port GPIOA
+#define JTAG_CONN_Pin GPIO_PIN_5
+#define JTAG_CONN_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

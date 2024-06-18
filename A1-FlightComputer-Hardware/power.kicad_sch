@@ -2148,7 +2148,7 @@
 		(uuid "942031d2-f57e-47c9-84ca-528e0c566e0d")
 	)
 	(junction
-		(at 184.277 97.155)
+		(at 45.72 97.155)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0c498b0-29bd-4260-b03c-d7b96e2554ba")
@@ -2207,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.007 96.52) (xy 183.007 97.155)
+			(xy 46.99 96.52) (xy 46.99 97.155)
 		)
 		(stroke
 			(width 0)
@@ -2287,23 +2287,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.277 97.155) (xy 184.277 98.425)
+			(xy 70.612 81.28) (xy 78.486 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc7264c-faa3-4740-ab52-af0e6e4a24e4")
+	)
+	(wire
+		(pts
+			(xy 45.72 97.155) (xy 45.72 98.425)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "315ae9a5-b8c3-4d0e-9616-b6dfd69a2c88")
-	)
-	(wire
-		(pts
-			(xy 78.486 81.28) (xy 88.392 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "332a2a4c-0600-4ae6-8365-6fd1c53a6fde")
 	)
 	(wire
 		(pts
@@ -2317,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.387 86.36) (xy 171.704 86.36)
+			(xy 54.61 86.36) (xy 58.293 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.547 96.52) (xy 185.547 97.155)
+			(xy 44.45 96.52) (xy 44.45 97.155)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.277 97.155) (xy 183.007 97.155)
+			(xy 45.72 97.155) (xy 46.99 97.155)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2417,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.387 88.9) (xy 171.704 88.9)
+			(xy 54.61 88.9) (xy 58.293 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2477,16 +2477,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 81.28) (xy 156.21 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cab1734-7bef-43d0-b870-721542f89adb")
-	)
-	(wire
-		(pts
 			(xy 88.392 81.28) (xy 88.392 84.074)
 		)
 		(stroke
@@ -2497,7 +2487,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.387 81.28) (xy 163.83 81.28)
+			(xy 78.486 81.28) (xy 88.392 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e267fb-ae61-41f5-82d6-af8c71b8216c")
+	)
+	(wire
+		(pts
+			(xy 54.61 81.28) (xy 62.992 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2527,7 +2527,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.547 97.155) (xy 184.277 97.155)
+			(xy 44.45 97.155) (xy 45.72 97.155)
 		)
 		(stroke
 			(width 0)
@@ -2587,7 +2587,7 @@
 	)
 	(wire
 		(pts
-			(xy 174.625 91.44) (xy 174.625 94.234)
+			(xy 55.372 91.44) (xy 55.372 94.234)
 		)
 		(stroke
 			(width 0)
@@ -2627,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.387 91.44) (xy 174.625 91.44)
+			(xy 54.61 91.44) (xy 55.372 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2665,19 +2665,9 @@
 		)
 		(uuid "fe457f56-e4e4-424c-bb1c-d2d09d31858e")
 	)
-	(text "USB will not be used to power PCB, only for data transport"
-		(exclude_from_sim no)
-		(at 170.18 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "08b22ed4-026e-4287-97a0-7f7cc55b8dbc")
-	)
 	(text "3.3V Regulation - MAX 1A"
 		(exclude_from_sim no)
-		(at 212.344 122.174 0)
+		(at 168.91 126.238 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2688,7 +2678,7 @@
 	)
 	(text "7.2V Unregulated from Batteries"
 		(exclude_from_sim no)
-		(at 212.598 52.578 0)
+		(at 169.164 56.642 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2710,7 +2700,7 @@
 	)
 	(text "5V Regulation - MAX 1A\n"
 		(exclude_from_sim no)
-		(at 212.598 85.979 0)
+		(at 169.164 90.043 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2721,13 +2711,13 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape input)
-		(at 171.704 88.9 180)
+		(at 58.293 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "01016608-0874-4645-9a01-8bc793345d0b")
 	)
@@ -2745,13 +2735,13 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape input)
-		(at 171.704 86.36 180)
+		(at 58.293 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ec1dae71-cbd2-4325-a65e-fa4827260579")
 	)
@@ -2819,6 +2809,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 146.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bdb52ff5-b203-435e-ba10-bdf9af25e7c0")
 		)
@@ -2833,8 +2832,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
-		(at 183.007 86.36 0)
-		(mirror y)
+		(at 46.99 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2843,7 +2841,7 @@
 		(fields_autoplaced yes)
 		(uuid "18e0e465-1d97-46f2-b038-2bd8c287da56")
 		(property "Reference" "J402"
-			(at 183.007 74.5957 0)
+			(at 46.99 74.5957 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +2849,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 183.007 77.0199 0)
+			(at 46.99 77.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2857,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10104110_Horizontal"
-			(at 179.197 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +2866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.197 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2875,7 @@
 			)
 		)
 		(property "Description" "Micro-USB"
-			(at 183.007 86.36 0)
+			(at 46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +2884,16 @@
 			)
 		)
 		(property "DK_Number" "609-4052-1-ND"
-			(at 183.007 86.36 0)
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +2938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1da11d98-4b03-4831-a6b9-c80250ae963a")
-		(property "Reference" "#PWR0411"
+		(property "Reference" "#PWR0413"
 			(at 139.827 123.825 0)
 			(effects
 				(font
@@ -2981,7 +2988,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0411")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -3042,6 +3049,15 @@
 			)
 		)
 		(property "DK_Number" "AZ1117IH-5.0TRG1DICT-ND"
+			(at 114.173 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 114.173 81.28 0)
 			(effects
 				(font
@@ -3132,6 +3148,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 99.441 126.619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6c329949-14ce-4ccd-b4ff-72984b0fb24f")
 		)
@@ -3211,6 +3236,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 146.05 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0823ea2e-ecb0-4433-8b26-20bd710fd30c")
 		)
@@ -3236,7 +3270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad889da-105e-47dd-9c31-3146ff0e5e38")
-		(property "Reference" "D402"
+		(property "Reference" "D403"
 			(at 148.971 98.1654 90)
 			(effects
 				(font
@@ -3290,6 +3324,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "078ce6a9-b40e-44e9-9db9-eae28cbd752f")
 		)
@@ -3299,7 +3342,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "D402")
+					(reference "D403")
 					(unit 1)
 				)
 			)
@@ -3313,10 +3356,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "41e9580d-c5e9-4ae0-9076-eea531b644eb")
 		(property "Reference" "J401"
-			(at 43.688 45.1825 0)
+			(at 43.18 43.0418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3366,7 @@
 			)
 		)
 		(property "Value" "PWR_IN"
-			(at 43.688 47.6067 0)
+			(at 43.18 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,6 +3401,15 @@
 			)
 		)
 		(property "DK_Number" ""
+			(at 43.053 49.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 43.053 49.403 0)
 			(effects
 				(font
@@ -3446,6 +3497,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 133.0904 126.619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb5ecf3e-c5d1-4ac6-9455-76e1799d52d9")
 		)
@@ -3471,7 +3531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd75415-9bca-4dfb-b2fa-db55f3606bc3")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR0410"
 			(at 127.381 100.711 0)
 			(effects
 				(font
@@ -3521,7 +3581,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0408")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -3537,7 +3597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ba27ca8-c9bf-4b67-a6fc-0aa318f11764")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR0407"
 			(at 99.441 139.446 0)
 			(effects
 				(font
@@ -3587,7 +3647,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0405")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -3657,6 +3717,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 146.05 126.619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67bf39fb-1c94-4935-bae2-f68f440138c5")
 		)
@@ -3682,7 +3751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63c2040d-b395-4981-be33-5cab7786fb0e")
-		(property "Reference" "#PWR0410"
+		(property "Reference" "#PWR0412"
 			(at 136.398 85.09 0)
 			(effects
 				(font
@@ -3732,7 +3801,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0410")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -3748,7 +3817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "694a1d2c-4074-45f1-99de-0e02d7fdfae9")
-		(property "Reference" "#PWR0409"
+		(property "Reference" "#PWR0411"
 			(at 133.0904 139.446 0)
 			(effects
 				(font
@@ -3798,7 +3867,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0409")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -3814,7 +3883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7815d708-dd1a-4b29-aa56-51cd2f44d973")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR0404"
 			(at 78.486 51.816 0)
 			(effects
 				(font
@@ -3864,7 +3933,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0402")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -3950,6 +4019,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 66.294 49.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e6c0b89-3efd-4170-befc-354fdef497fd")
 		)
@@ -3975,7 +4053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c57c5d5-b029-4e86-aafc-dbe734a41edf")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR0408"
 			(at 114.173 97.917 0)
 			(effects
 				(font
@@ -4025,7 +4103,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0406")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -4095,6 +4173,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 127.381 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc54353e-054c-481a-b2c1-44ef94daa7bb")
 		)
@@ -4120,7 +4207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f9e3ba6-bc9d-4ccd-badc-ceccaaa33c30")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR0409"
 			(at 121.158 136.652 0)
 			(effects
 				(font
@@ -4170,7 +4257,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0407")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -4240,6 +4327,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 50.292 58.547 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebf64838-7c37-4460-84a0-6fa9d2b95992")
 		)
@@ -4265,7 +4361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a9c3f2e-8c73-44d7-aad8-9d5c6132d58c")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR0405"
 			(at 87.757 139.446 0)
 			(effects
 				(font
@@ -4315,7 +4411,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0403")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -4385,6 +4481,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 87.757 126.619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d4eb8fa-f772-4e77-be61-4c6b09cd4e2f")
 		)
@@ -4409,7 +4514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a394a7f4-f9b3-4ccc-892c-c220e02e6506")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR0402"
 			(at 50.292 70.485 0)
 			(effects
 				(font
@@ -4459,7 +4564,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0401")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -4475,7 +4580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a57c02b9-ab92-49c1-85a1-7785e6441cb3")
-		(property "Reference" "D403"
+		(property "Reference" "D404"
 			(at 148.971 136.9004 90)
 			(effects
 				(font
@@ -4529,6 +4634,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 146.05 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc0af861-245d-4acd-9d9b-1128ab41eb67")
 		)
@@ -4538,7 +4652,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "D403")
+					(reference "D404")
 					(unit 1)
 				)
 			)
@@ -4546,16 +4660,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 160.02 81.28 0)
-		(mirror x)
+		(at 66.802 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a6738725-a425-4987-8a69-c898bf539f82")
-		(property "Reference" "D404"
-			(at 160.02 75.8657 0)
+		(property "Reference" "D402"
+			(at 66.802 75.8657 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4676,7 @@
 			)
 		)
 		(property "Value" "DSS14U"
-			(at 160.02 78.2899 0)
+			(at 66.802 78.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +4684,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 160.02 81.28 0)
+			(at 66.802 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 81.28 0)
+			(at 66.802 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4702,7 @@
 			)
 		)
 		(property "Description" "Diode SOD-123F"
-			(at 160.02 81.28 0)
+			(at 66.802 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4711,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 160.02 81.28 0)
+			(at 66.802 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4720,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 81.28 0)
+			(at 66.802 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4729,16 @@
 			)
 		)
 		(property "DK_Number" "1655-DSS14UCT-ND"
-			(at 160.02 81.28 0)
+			(at 66.802 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 66.802 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4755,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "D404")
+					(reference "D402")
 					(unit 1)
 				)
 			)
@@ -4703,6 +4825,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 146.05 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e5b4c19-6775-46d5-bd7a-8407daa769b2")
 		)
@@ -4717,8 +4848,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.277 98.425 0)
-		(mirror y)
+		(at 45.72 98.425 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4726,8 +4856,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ace8f2c7-d923-4c07-8354-27cc92a3b4ed")
-		(property "Reference" "#PWR0415"
-			(at 184.277 104.775 0)
+		(property "Reference" "#PWR0401"
+			(at 45.72 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4866,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.277 102.5581 0)
+			(at 45.72 102.5581 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.277 98.425 0)
+			(at 45.72 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.277 98.425 0)
+			(at 45.72 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4892,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.277 98.425 0)
+			(at 45.72 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4906,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0415")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -4846,6 +4976,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 95.123 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f1d3264-4f6c-4cde-a098-f26520190f0c")
 		)
@@ -4868,7 +5007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccda4eee-3ad5-4b1f-bf5d-61063bb88550")
-		(property "Reference" "#PWR0412"
+		(property "Reference" "#PWR0414"
 			(at 146.05 110.363 0)
 			(effects
 				(font
@@ -4918,7 +5057,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0412")
+					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
@@ -4987,6 +5126,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 121.158 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "497853c8-2290-4c37-8859-59d8ff1d9e7b")
 		)
@@ -5015,7 +5163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfcaa12b-8c36-47a4-b477-fb0f03fe973c")
-		(property "Reference" "#PWR0404"
+		(property "Reference" "#PWR0406"
 			(at 88.392 100.711 0)
 			(effects
 				(font
@@ -5065,7 +5213,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0404")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -5073,8 +5221,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 174.625 94.234 0)
-		(mirror y)
+		(at 55.372 94.234 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5082,8 +5229,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4dfbc7d-49a3-44e2-86b7-b2fb90f2eac5")
-		(property "Reference" "#PWR0414"
-			(at 174.625 100.584 0)
+		(property "Reference" "#PWR0403"
+			(at 55.372 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5239,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 174.625 98.3671 0)
+			(at 55.372 98.3671 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 174.625 94.234 0)
+			(at 55.372 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 174.625 94.234 0)
+			(at 55.372 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 174.625 94.234 0)
+			(at 55.372 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +5279,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0414")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -5202,6 +5349,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 88.392 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b3ef039-bbb8-4300-a00d-4a20b4eba1e2")
 		)
@@ -5227,7 +5383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec09978a-e04a-4dcf-97b8-b3b8a5dc9930")
-		(property "Reference" "#PWR0413"
+		(property "Reference" "#PWR0415"
 			(at 146.05 149.098 0)
 			(effects
 				(font
@@ -5277,7 +5433,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/93df2493-30a1-43ba-8661-883f0577d8a5"
-					(reference "#PWR0413")
+					(reference "#PWR0415")
 					(unit 1)
 				)
 			)

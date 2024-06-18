@@ -11,126 +11,6 @@
 		(company "UVic Rocketry")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -3936,12 +3816,6 @@
 		(uuid "38cf95fe-b280-4c38-983d-c5bd1638d012")
 	)
 	(junction
-		(at 175.641 109.601)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39a8346d-928d-4d13-b5e0-111d482c4047")
-	)
-	(junction
 		(at 148.336 35.814)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4120,6 +3994,46 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5c8f802-963f-402f-9429-784c05ee5476")
+	)
+	(no_connect
+		(at 149.352 122.301)
+		(uuid "09fe2fe8-fde6-445d-89b2-46e364ab23c4")
+	)
+	(no_connect
+		(at 149.352 124.841)
+		(uuid "3deb3493-ebad-49fc-aeec-e80114bb56e5")
+	)
+	(no_connect
+		(at 149.352 68.961)
+		(uuid "5ddb049d-d79b-4b56-b4ef-fa24230f11e4")
+	)
+	(no_connect
+		(at 149.352 127.381)
+		(uuid "6891f2e0-06c3-49b5-8293-26e89a63b77a")
+	)
+	(no_connect
+		(at 113.792 114.681)
+		(uuid "9cb33182-f05d-4755-b77c-92e036b2614b")
+	)
+	(no_connect
+		(at 149.352 119.761)
+		(uuid "aafecec4-65eb-4cf6-a1b2-38208b8e2e31")
+	)
+	(no_connect
+		(at 149.352 66.421)
+		(uuid "ae4ce3cb-24fc-41dd-97c1-7db8a31e7924")
+	)
+	(no_connect
+		(at 149.352 63.881)
+		(uuid "bf9e1540-1496-4eb9-802f-589a852162ef")
+	)
+	(no_connect
+		(at 149.352 61.341)
+		(uuid "ca303e1e-46c0-4705-834e-42abba63377f")
+	)
+	(no_connect
+		(at 149.352 142.621)
+		(uuid "d5b677f5-4b2b-4ca7-86c3-27e086b4f48f")
 	)
 	(no_connect
 		(at 113.792 79.121)
@@ -4314,16 +4228,6 @@
 			(type default)
 		)
 		(uuid "1b8ff521-2076-42c0-9def-7b80daa24988")
-	)
-	(wire
-		(pts
-			(xy 149.352 124.841) (xy 175.006 124.841)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e33f3ec-8ed5-424a-b70c-9e84aca87176")
 	)
 	(wire
 		(pts
@@ -4557,26 +4461,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.193 184.658) (xy 134.62 184.658)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e9821bb-371a-4899-a2aa-2bf51d291fea")
-	)
-	(wire
-		(pts
-			(xy 149.352 142.621) (xy 167.132 142.621)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f35017d-42cc-4a60-a88a-eb44b0325e91")
-	)
-	(wire
-		(pts
 			(xy 225.044 112.649) (xy 225.044 115.062)
 		)
 		(stroke
@@ -4637,16 +4521,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.783 63.881) (xy 149.352 63.881)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4781c4d2-e9e9-4c62-b338-338e8fc06313")
-	)
-	(wire
-		(pts
 			(xy 191.897 35.941) (xy 204.597 35.941)
 		)
 		(stroke
@@ -4704,16 +4578,6 @@
 			(type default)
 		)
 		(uuid "4cc268fd-eb1c-42aa-8564-b9f341ec4db5")
-	)
-	(wire
-		(pts
-			(xy 149.352 109.601) (xy 175.641 109.601)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d42265f-c8e2-4564-bee2-55dbe0f525c2")
 	)
 	(wire
 		(pts
@@ -4854,16 +4718,6 @@
 			(type default)
 		)
 		(uuid "6460358c-d142-4025-b349-18f1b4c0b900")
-	)
-	(wire
-		(pts
-			(xy 167.386 122.301) (xy 149.352 122.301)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b1eeee-5f9e-4cdb-9d03-4e55488b5f4d")
 	)
 	(wire
 		(pts
@@ -5017,16 +4871,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.783 61.341) (xy 149.352 61.341)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d076749-b08a-47a4-a8ed-9278d3215035")
-	)
-	(wire
-		(pts
 			(xy 149.352 135.001) (xy 181.229 135.001)
 		)
 		(stroke
@@ -5087,16 +4931,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.783 66.421) (xy 149.352 66.421)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "835a1268-7146-436c-9637-1229c246f476")
-	)
-	(wire
-		(pts
 			(xy 255.27 122.682) (xy 261.112 122.682)
 		)
 		(stroke
@@ -5134,16 +4968,6 @@
 			(type default)
 		)
 		(uuid "870f83af-a0ac-4a2e-9c73-5539ae011b65")
-	)
-	(wire
-		(pts
-			(xy 175.006 127.381) (xy 149.352 127.381)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88fdee85-b0ad-4fa3-b243-c4ba4db3b94d")
 	)
 	(wire
 		(pts
@@ -5194,16 +5018,6 @@
 			(type default)
 		)
 		(uuid "8fdfd370-fa7b-41a6-b441-d18ac1c5501c")
-	)
-	(wire
-		(pts
-			(xy 175.641 109.601) (xy 179.197 109.601)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fe32879-f651-4138-9902-81dcaa784c2a")
 	)
 	(wire
 		(pts
@@ -5597,26 +5411,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.792 114.681) (xy 98.552 114.681)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a44580-4e82-490d-bf39-2dc8f73fdce2")
-	)
-	(wire
-		(pts
-			(xy 149.352 68.961) (xy 168.783 68.961)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4fb38a3-d178-4137-b0a4-1df82f398803")
-	)
-	(wire
-		(pts
 			(xy 135.636 28.067) (xy 148.336 28.067)
 		)
 		(stroke
@@ -5697,16 +5491,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.352 119.761) (xy 167.386 119.761)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfab1d9e-d23c-4f89-a4ee-8e2fb9018c54")
-	)
-	(wire
-		(pts
 			(xy 161.036 28.067) (xy 161.036 28.194)
 		)
 		(stroke
@@ -5774,16 +5558,6 @@
 			(type default)
 		)
 		(uuid "cd2b4c7d-34c6-4582-a749-44c399ed2090")
-	)
-	(wire
-		(pts
-			(xy 147.193 189.23) (xy 134.62 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc999ab-f5da-4708-86ea-73aa03a4202f")
 	)
 	(wire
 		(pts
@@ -6203,17 +5977,6 @@
 		)
 		(uuid "07f93e7f-6d29-4884-945a-591f518c958e")
 	)
-	(label "PC12"
-		(at 98.552 114.681 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "09315372-fb15-4e18-9f1b-05c4772dada0")
-	)
 	(label "LSE_OSC_IN"
 		(at 98.552 119.761 0)
 		(fields_autoplaced yes)
@@ -6379,17 +6142,6 @@
 		)
 		(uuid "56b2cde3-ff95-4cda-9188-426a10a05fa8")
 	)
-	(label "PC12"
-		(at 134.62 189.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e6f10be-a5cc-4929-bccc-f9b2e9491864")
-	)
 	(label "DEBUG_RX"
 		(at 98.552 112.141 0)
 		(fields_autoplaced yes)
@@ -6533,17 +6285,6 @@
 		)
 		(uuid "8aeab788-6e1e-4f61-bcae-f6f210116c6e")
 	)
-	(label "PB15"
-		(at 134.62 184.658 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92dfb02b-5e36-4619-ba46-3f08bd6002df")
-	)
 	(label "QuadSPI_IO2"
 		(at 167.259 79.121 180)
 		(fields_autoplaced yes)
@@ -6653,17 +6394,6 @@
 			(justify left bottom)
 		)
 		(uuid "bdf5e9f8-5f39-40ce-929e-d2944df17699")
-	)
-	(label "PB15"
-		(at 167.132 142.621 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c211c3cf-5669-4071-a9c2-6adca5e99d8f")
 	)
 	(label "JTCK{slash}SWCLK"
 		(at 167.132 96.901 180)
@@ -6809,30 +6539,6 @@
 		)
 		(uuid "0d9022a4-61cb-41fa-9fa6-f0998036d0cc")
 	)
-	(hierarchical_label "STG1"
-		(shape input)
-		(at 168.783 66.421 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "127f4a8c-7fca-4edd-9957-5ca9291738c6")
-	)
-	(hierarchical_label "Actuator_IN2"
-		(shape input)
-		(at 175.006 127.381 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "172125e9-b833-4399-8275-5a99cf1f8d29")
-	)
 	(hierarchical_label "V_BATT_SENSE"
 		(shape input)
 		(at 124.333 53.594 180)
@@ -6857,18 +6563,6 @@
 		)
 		(uuid "1f78c499-39c8-4d7d-a844-b9c79ab6da40")
 	)
-	(hierarchical_label "STG3"
-		(shape input)
-		(at 168.783 61.341 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "32510855-ad2c-4357-b111-abb85c947259")
-	)
 	(hierarchical_label "I2C_SDA"
 		(shape input)
 		(at 188.341 140.081 0)
@@ -6880,18 +6574,6 @@
 			(justify left)
 		)
 		(uuid "3e06acb1-bc15-4987-8d95-7a3361d45293")
-	)
-	(hierarchical_label "Payload_TEMP"
-		(shape input)
-		(at 179.197 109.601 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4180076b-6040-4ebd-a855-8cfac52e8b35")
 	)
 	(hierarchical_label "BME_CS"
 		(shape input)
@@ -6928,18 +6610,6 @@
 			(justify right)
 		)
 		(uuid "5cbf78c4-0423-4f68-9eb5-26eec1dc725f")
-	)
-	(hierarchical_label "Actuator_IN1"
-		(shape input)
-		(at 175.006 124.841 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6cd7a661-1179-48ea-97bf-6342ac55d04d")
 	)
 	(hierarchical_label "LED0"
 		(shape input)
@@ -6989,19 +6659,7 @@
 		)
 		(uuid "7cdc70b3-adca-46fa-91d9-5f0ecafadb67")
 	)
-	(hierarchical_label "LoRa_RX"
-		(shape input)
-		(at 175.006 119.761 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "833964b3-6a13-4e19-847c-76d8e3832fdc")
-	)
-	(hierarchical_label "GoPro_ON"
+	(hierarchical_label "Buzzer_ON"
 		(shape input)
 		(at 188.341 135.001 0)
 		(fields_autoplaced yes)
@@ -7012,18 +6670,6 @@
 			(justify left)
 		)
 		(uuid "88de39a2-5fcc-4ea8-97bc-b0ec9c45d117")
-	)
-	(hierarchical_label "STG2"
-		(shape input)
-		(at 168.783 63.881 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8c5a0126-cc39-4ba6-83b3-d40d7afb7d32")
 	)
 	(hierarchical_label "ADX_INT2"
 		(shape input)
@@ -7036,18 +6682,6 @@
 			(justify right)
 		)
 		(uuid "9e5ef584-9f9b-4f9a-b163-f808ed06f105")
-	)
-	(hierarchical_label "LoRa_TX"
-		(shape input)
-		(at 175.006 122.301 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aaced39e-3adf-4f33-bf2e-56f5a24b489b")
 	)
 	(hierarchical_label "LED3"
 		(shape input)
@@ -7084,18 +6718,6 @@
 			(justify right)
 		)
 		(uuid "daed9397-98e6-4dbf-97ce-515fe102fe1c")
-	)
-	(hierarchical_label "STG0"
-		(shape input)
-		(at 168.783 68.961 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1e159c2-de20-4351-a5cf-81e1c0b09924")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -7153,6 +6775,15 @@
 			)
 		)
 		(property "DK_Number" "311-1088-1-ND"
+			(at 148.336 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 148.336 32.004 0)
 			(effects
 				(font
@@ -7317,7 +6948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10929189-9043-4bfe-9479-a2c338c632f9")
-		(property "Reference" "TP209"
+		(property "Reference" "TP208"
 			(at 264.922 25.781 0)
 			(effects
 				(font
@@ -7372,82 +7003,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 264.922 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "237ffc58-cc15-4e7a-b9fa-81f83f0a80ae")
 		)
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "TP209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 171.196 122.301 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1297ea3d-0546-4958-945b-6ea437dca655")
-		(property "Reference" "JP202"
-			(at 165.1 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 171.196 124.9101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 171.196 122.301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.196 122.301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper"
-			(at 171.196 122.301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "955d67ca-d9db-4a77-8444-993d5091620b")
-		)
-		(pin "1"
-			(uuid "9b117a1e-0d15-4ff3-90f9-e81312e131e7")
-		)
-		(instances
-			(project "A1-FlightComputer"
-				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "JP202")
+					(reference "TP208")
 					(unit 1)
 				)
 			)
@@ -7500,6 +7071,15 @@
 			)
 		)
 		(property "Description" "Socket 1x2 2.54"
+			(at 152.4 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 152.4 170.942 0)
 			(effects
 				(font
@@ -7587,6 +7167,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 225.044 98.933 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9dbfdfc3-fa73-4b7b-a4f2-bf152c7a14be")
 		)
@@ -7658,6 +7247,15 @@
 			)
 		)
 		(property "DK_Number" "535-9831-1-ND"
+			(at 43.053 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 43.053 179.832 0)
 			(effects
 				(font
@@ -7875,6 +7473,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 30.861 185.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d36a493-547e-4d88-b32a-73ed93b3c3d5")
 		)
@@ -8017,6 +7624,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 37.846 40.513 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "31954711-4dc8-4253-b324-bd6d873a84bf")
 		)
@@ -8079,6 +7695,15 @@
 			)
 		)
 		(property "Description" "Socket 1x2 2.54"
+			(at 152.4 177.419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 152.4 177.419 0)
 			(effects
 				(font
@@ -8166,6 +7791,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 225.044 108.839 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6825fb67-5647-4fb4-abec-5b4dbebaff26")
 		)
@@ -8243,6 +7877,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 30.861 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9030a342-ad4d-4745-86f5-216a480f9733")
 		)
@@ -8311,6 +7954,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 250.19 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d868dd65-4526-4ffb-bcdc-bb4e76e21111")
 		)
@@ -8359,7 +8011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5582250e-af95-4aee-b451-6e2caaa3e563")
-		(property "Reference" "JP203"
+		(property "Reference" "JP201"
 			(at 232.918 125.476 0)
 			(effects
 				(font
@@ -8403,6 +8055,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 232.918 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89e6bfa2-1f13-477a-b5a1-463c7d55f483")
 		)
@@ -8412,83 +8073,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "JP203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 175.641 109.601 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5846c8d3-8031-41a6-8f69-d5bb0cf003b8")
-		(property "Reference" "TP202"
-			(at 175.641 103.378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "~"
-			(at 177.038 107.5111 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 180.721 109.601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.721 109.601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.641 109.601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK_Number" ""
-			(at 175.641 109.601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de3ab889-338b-4170-9576-f68cc936463a")
-		)
-		(instances
-			(project "A1-FlightComputer"
-				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "TP202")
+					(reference "JP201")
 					(unit 1)
 				)
 			)
@@ -8547,7 +8132,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK_Number" "311-10KLDCT-ND"
+		(property "DK_Number" "311-1KLDCT-ND"
+			(at 34.544 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 34.544 117.856 0)
 			(effects
 				(font
@@ -8646,7 +8240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e71aac2-350d-447a-b9b6-c2ab91317ea0")
-		(property "Reference" "TP207"
+		(property "Reference" "TP206"
 			(at 248.793 150.622 0)
 			(effects
 				(font
@@ -8701,13 +8295,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 248.793 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c348f19-49be-4d97-b2e6-f9ad93960f66")
 		)
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "TP207")
+					(reference "TP206")
 					(unit 1)
 				)
 			)
@@ -8775,6 +8378,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 177.038 91.821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69cd5e73-29cd-4bf5-8377-fa6c4ef15810")
 		)
@@ -8799,7 +8411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66adba47-0cb4-48be-a562-9451a0915ade")
-		(property "Reference" "TP206"
+		(property "Reference" "TP205"
 			(at 241.427 150.622 0)
 			(effects
 				(font
@@ -8854,13 +8466,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 241.427 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c212b905-1da8-4dbb-a8e5-893d8bd74088")
 		)
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "TP206")
+					(reference "TP205")
 					(unit 1)
 				)
 			)
@@ -8922,6 +8543,15 @@
 			)
 		)
 		(property "DK_Number" "311-1088-1-ND"
+			(at 135.636 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 135.636 32.004 0)
 			(effects
 				(font
@@ -9075,6 +8705,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 37.592 34.671 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1075b673-c8f2-47ac-ad70-f898d655452c")
 		)
@@ -9152,6 +8791,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 63.5 185.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6c96a70-9490-475d-94fe-317799f933dd")
 		)
@@ -9221,6 +8869,15 @@
 			)
 		)
 		(property "DK_Number" "256-W25N01GVZEIG-ND"
+			(at 244.983 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 244.983 41.656 0)
 			(effects
 				(font
@@ -9389,6 +9046,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 177.038 89.281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6104d23a-d15d-417a-bcd7-f045fd9612b8")
 		)
@@ -9460,6 +9126,15 @@
 			)
 		)
 		(property "DK_Number" "311-1088-1-ND"
+			(at 122.936 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 122.936 32.004 0)
 			(effects
 				(font
@@ -9611,6 +9286,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 50.673 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11915969-d2ad-4e91-b494-2bf0a1525d1f")
 		)
@@ -9749,6 +9433,15 @@
 			)
 		)
 		(property "DK_Number" "497-18963-ND"
+			(at 131.572 104.521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 131.572 104.521 0)
 			(effects
 				(font
@@ -9959,74 +9652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 171.196 119.761 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bffe069-ca37-432f-af9a-30b756ee04b6")
-		(property "Reference" "JP201"
-			(at 165.481 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 171.196 117.1519 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 171.196 119.761 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.196 119.761 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper"
-			(at 171.196 119.761 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c980d617-894a-46c5-8892-6d9a78e54c23")
-		)
-		(pin "1"
-			(uuid "38ecc826-053f-4903-81aa-5c44ae3ace8d")
-		)
-		(instances
-			(project "A1-FlightComputer"
-				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "JP201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 176.53 137.541 0)
 		(unit 1)
@@ -10035,7 +9660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c7b1967-4ad4-428c-a7d0-ff69a8c3a4fa")
-		(property "Reference" "TP203"
+		(property "Reference" "TP202"
 			(at 176.53 131.318 0)
 			(effects
 				(font
@@ -10090,80 +9715,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 176.53 137.541 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c17c1f6c-7e3d-4405-8e8b-5a85d59698ff")
 		)
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "TP203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 152.273 184.658 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1a92c9f-1250-4925-b00d-2578c33f7dc1")
-		(property "Reference" "J201"
-			(at 152.9842 183.4459 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 152.9842 185.8701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 152.273 184.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.273 184.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Socket 1x1 2.54"
-			(at 152.273 184.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b506a28-3831-4f04-a276-b15cc6dec9ab")
-		)
-		(instances
-			(project "A1-FlightComputer"
-				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "J201")
+					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -10365,6 +9932,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 42.926 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0de5fc7d-f651-4cf1-8694-cd9dd6abd0a7")
 		)
@@ -10455,7 +10031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0e6bf1a-32a8-4763-850d-27d7545f882a")
-		(property "Reference" "TP204"
+		(property "Reference" "TP203"
 			(at 181.229 128.778 0)
 			(effects
 				(font
@@ -10510,13 +10086,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 181.229 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79178505-c1c3-42a0-9935-d9b42886c55a")
 		)
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "TP204")
+					(reference "TP203")
 					(unit 1)
 				)
 			)
@@ -10531,7 +10116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1ce391c-ed70-4f22-9e6a-0eafb911c079")
-		(property "Reference" "TP205"
+		(property "Reference" "TP204"
 			(at 233.807 150.622 0)
 			(effects
 				(font
@@ -10586,13 +10171,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 233.807 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "790d5df9-3525-421f-8d8d-77da7459eb2d")
 		)
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "TP205")
+					(reference "TP204")
 					(unit 1)
 				)
 			)
@@ -10720,6 +10314,15 @@
 			)
 		)
 		(property "DK_Number" "311-1088-1-ND"
+			(at 204.597 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 204.597 32.004 0)
 			(effects
 				(font
@@ -10873,6 +10476,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 41.656 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "61319521-5645-4f13-b6e4-77266473af26")
 		)
@@ -10952,6 +10564,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 173.736 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "86c5f512-762b-4b02-b994-fc096c79604b")
 		)
@@ -11021,6 +10642,15 @@
 			)
 		)
 		(property "DK_Number" "CKN9559-ND"
+			(at 39.243 74.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 39.243 74.549 0)
 			(effects
 				(font
@@ -11111,6 +10741,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 29.21 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8602aa24-6a1f-4469-b424-bde0719e2aff")
 		)
@@ -11135,7 +10774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2eb554f-86bc-455a-8950-97c1e0ac766b")
-		(property "Reference" "TP208"
+		(property "Reference" "TP207"
 			(at 256.667 150.622 0)
 			(effects
 				(font
@@ -11190,13 +10829,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 256.667 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9a2cb34-0c10-4e05-a77d-4f55f4d7ed98")
 		)
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "TP208")
+					(reference "TP207")
 					(unit 1)
 				)
 			)
@@ -11256,6 +10904,15 @@
 			)
 		)
 		(property "DK_Number" "311-3827-1-ND"
+			(at 30.734 162.941 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 30.734 162.941 0)
 			(effects
 				(font
@@ -11343,6 +11000,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 110.236 31.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aca4f9d0-4cff-4f67-b7ab-e50ad2338da9")
 		)
@@ -11412,6 +11078,15 @@
 			)
 		)
 		(property "DK_Number" "311-3827-1-ND"
+			(at 30.734 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 30.734 152.908 0)
 			(effects
 				(font
@@ -11577,7 +11252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfe371e7-40e5-466a-8fae-8b0cee8ed2b8")
-		(property "Reference" "JP204"
+		(property "Reference" "JP202"
 			(at 264.922 125.73 0)
 			(effects
 				(font
@@ -11621,6 +11296,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 264.922 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c82eab57-bb14-4272-8ae0-49260a071a45")
 		)
@@ -11630,7 +11314,7 @@
 		(instances
 			(project "A1-FlightComputer"
 				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "JP204")
+					(reference "JP202")
 					(unit 1)
 				)
 			)
@@ -11703,73 +11387,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 152.273 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efbb7aba-466d-4965-9160-4a37a8cc7b98")
-		(property "Reference" "J202"
-			(at 152.9842 188.0179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 152.9842 190.4421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 152.273 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.273 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Socket 1x1 2.54"
-			(at 152.273 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "416a878f-1b85-47f3-9178-77b47345f481")
-		)
-		(instances
-			(project "A1-FlightComputer"
-				(path "/623a91b3-8d7c-4296-9e9a-e3a962cdddfa/e4877fc3-9e28-4e90-bc65-7a6d47fa4f14"
-					(reference "J202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 161.036 32.004 0)
 		(unit 1)
@@ -11825,6 +11442,15 @@
 			)
 		)
 		(property "DK_Number" "490-9666-1-ND"
+			(at 161.036 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 161.036 32.004 0)
 			(effects
 				(font
@@ -11912,6 +11538,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 171.958 140.081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7191555e-9681-4f4f-9df8-f2249850dd3d")
 		)
@@ -11980,6 +11615,15 @@
 			)
 		)
 		(property "DK_Number" "2223-TS02-66-60-BK-160-SCR-D-ND"
+			(at 29.21 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 29.21 111.125 0)
 			(effects
 				(font
@@ -12125,6 +11769,15 @@
 			)
 		)
 		(property "DK_Number" "490-7203-1-ND"
+			(at 191.897 31.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 191.897 31.877 0)
 			(effects
 				(font

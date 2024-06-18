@@ -132,16 +132,6 @@
 	)
 	(wire
 		(pts
-			(xy 108.077 120.65) (xy 126.492 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1254df5e-24c1-4480-bc0e-d246050334f6")
-	)
-	(wire
-		(pts
 			(xy 108.077 50.8) (xy 126.492 50.8)
 		)
 		(stroke
@@ -152,17 +142,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.077 118.745) (xy 126.492 118.745)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a58621b-19ea-4544-98de-003cd9616304")
-	)
-	(wire
-		(pts
-			(xy 108.077 88.9) (xy 126.492 88.9)
+			(xy 108.077 78.74) (xy 126.492 78.74)
 		)
 		(stroke
 			(width 0)
@@ -182,17 +162,17 @@
 	)
 	(wire
 		(pts
-			(xy 108.077 82.55) (xy 126.492 82.55)
+			(xy 108.077 99.06) (xy 126.492 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40128613-255a-4808-985b-94aca2eebfe4")
+		(uuid "3b6d6bff-1da8-47dd-b125-50b70229f3f6")
 	)
 	(wire
 		(pts
-			(xy 108.077 99.695) (xy 126.492 99.695)
+			(xy 108.077 89.535) (xy 126.492 89.535)
 		)
 		(stroke
 			(width 0)
@@ -202,27 +182,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.077 76.835) (xy 126.492 76.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81ddbccf-ccdb-4f5d-a053-bcc22dcb3cae")
-	)
-	(wire
-		(pts
-			(xy 108.077 108.585) (xy 126.492 108.585)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b3d0e51-5e47-432d-bdf7-8c5b6014a2ce")
-	)
-	(wire
-		(pts
-			(xy 108.077 93.98) (xy 126.492 93.98)
+			(xy 108.077 83.82) (xy 126.492 83.82)
 		)
 		(stroke
 			(width 0)
@@ -242,27 +202,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.077 114.3) (xy 126.492 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7071aa1-b03b-4d4c-826c-aeb03712e4e9")
-	)
-	(wire
-		(pts
-			(xy 108.077 78.74) (xy 126.492 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8502e39-668b-4334-a2ee-a325ef6e4556")
-	)
-	(wire
-		(pts
-			(xy 108.077 86.995) (xy 126.492 86.995)
+			(xy 108.077 76.835) (xy 126.492 76.835)
 		)
 		(stroke
 			(width 0)
@@ -272,17 +212,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.077 112.395) (xy 126.492 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4da7df4-a32f-485e-9e98-acb259e5da7e")
-	)
-	(wire
-		(pts
-			(xy 108.077 102.87) (xy 126.492 102.87)
+			(xy 108.077 92.71) (xy 126.492 92.71)
 		)
 		(stroke
 			(width 0)
@@ -312,7 +242,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.077 97.79) (xy 126.492 97.79)
+			(xy 108.077 87.63) (xy 126.492 87.63)
 		)
 		(stroke
 			(width 0)
@@ -322,7 +252,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.077 92.075) (xy 126.492 92.075)
+			(xy 108.077 81.915) (xy 126.492 81.915)
 		)
 		(stroke
 			(width 0)
@@ -342,17 +272,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.077 80.645) (xy 126.492 80.645)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f80d8a0b-146d-4e32-80cb-a7e2640b6c0b")
-	)
-	(wire
-		(pts
-			(xy 108.077 104.775) (xy 126.492 104.775)
+			(xy 108.077 94.615) (xy 126.492 94.615)
 		)
 		(stroke
 			(width 0)
@@ -369,27 +289,6 @@
 			(type default)
 		)
 		(uuid "fa2e1d73-9881-4a07-b007-15fedd34168b")
-	)
-	(wire
-		(pts
-			(xy 108.077 125.095) (xy 126.492 125.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd4fad1-a6ae-4f89-b563-48618ffc96ce")
-	)
-	(text "USB Debug\nUSB OTG\nST-Link Programming\nPressure / Temperature / Humidity\nLow Accelleration IMU\nHigh Accelleration  IMU\nI/O Breakout\nADC 		Battery Checking\n2x UART\n1x I2C\n4x GPIO		Strain Guages\n1x GPIO	(A)	Payload Temp\n2x GPIO		LEDs\nSPI			Flash Chip \nSDMMC		SD card?\nPayload temp sensors\nPayload linear actuator\n"
-		(exclude_from_sim no)
-		(at 197.866 91.821 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7656647a-e9db-4168-a73c-c7089cee72a9")
 	)
 	(text "NOTE: All TX/RX connectors are switched at the MICROCONTROLLER connection"
 		(exclude_from_sim no)
@@ -447,6 +346,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 218.44 128.27 0)
 			(effects
 				(font
@@ -520,6 +428,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f41b3da-76ca-4459-b0ca-98f47b3e3cb2")
 		)
@@ -577,6 +494,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 203.2 128.27 0)
 			(effects
 				(font
@@ -650,6 +576,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d9be0b0-7c4b-41a6-a89a-4182e14121fb")
 		)
@@ -663,8 +598,8 @@
 		)
 	)
 	(sheet
-		(at 126.492 30.988)
-		(size 29.464 24.13)
+		(at 126.492 43.18)
+		(size 29.464 11.938)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -675,7 +610,7 @@
 		)
 		(uuid "93df2493-30a1-43ba-8661-883f0577d8a5")
 		(property "Sheetname" "Power"
-			(at 126.492 30.2764 0)
+			(at 126.492 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,7 +667,7 @@
 	)
 	(sheet
 		(at 126.492 63.627)
-		(size 37.846 67.183)
+		(size 37.846 37.973)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -752,7 +687,7 @@
 			)
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 126.492 131.3946 0)
+			(at 126.492 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,7 +736,7 @@
 			(uuid "3924de37-5fbf-42e7-987b-04aebdeb3a8e")
 		)
 		(pin "I2C_SCL" input
-			(at 126.492 86.995 180)
+			(at 126.492 76.835 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +746,7 @@
 			(uuid "7b531a6d-3b93-4802-a99c-46daf3a429d3")
 		)
 		(pin "BME_CS" input
-			(at 126.492 99.695 180)
+			(at 126.492 89.535 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,7 +756,7 @@
 			(uuid "d5ca4b13-4ce3-4ea4-9368-a143cb178ed3")
 		)
 		(pin "BME_INT" input
-			(at 126.492 97.79 180)
+			(at 126.492 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,7 +766,7 @@
 			(uuid "7c215e40-6a58-40d5-b9d5-7da80d28b838")
 		)
 		(pin "LSM_INT1" input
-			(at 126.492 102.87 180)
+			(at 126.492 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -841,7 +776,7 @@
 			(uuid "e98233cc-8fa6-403c-9261-bfffd23132ee")
 		)
 		(pin "LSM_INT2" input
-			(at 126.492 104.775 180)
+			(at 126.492 94.615 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,48 +785,8 @@
 			)
 			(uuid "b36e7c8d-d9e3-4955-b81a-afbb65f11015")
 		)
-		(pin "STG0" input
-			(at 126.492 76.835 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bfe24c3b-83c7-4405-bb22-5e2d5332ba92")
-		)
-		(pin "STG1" input
-			(at 126.492 78.74 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0f0020c7-3689-418c-a550-f75ef42e4f5c")
-		)
-		(pin "STG2" input
-			(at 126.492 80.645 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bc27f25f-6a51-4c68-b977-5919bb6a8b51")
-		)
-		(pin "STG3" input
-			(at 126.492 82.55 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6a111433-378f-4c55-ab9a-4a846dbd9d2a")
-		)
 		(pin "I2C_SDA" input
-			(at 126.492 88.9 180)
+			(at 126.492 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +796,7 @@
 			(uuid "c062c756-61dd-4fc8-80bf-4e5af05e5eb4")
 		)
 		(pin "ADX_INT1" input
-			(at 126.492 92.075 180)
+			(at 126.492 81.915 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -911,7 +806,7 @@
 			(uuid "5b89b324-e27e-48d7-bd48-60be92d9a598")
 		)
 		(pin "ADX_INT2" input
-			(at 126.492 93.98 180)
+			(at 126.492 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -920,65 +815,15 @@
 			)
 			(uuid "36433be6-8eff-4ee1-960d-f77b8e0119f2")
 		)
-		(pin "Payload_TEMP" input
-			(at 126.492 108.585 180)
+		(pin "Buzzer_ON" input
+			(at 126.492 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ea601bb2-a242-41a7-bbac-9f870a43d493")
-		)
-		(pin "Actuator_IN2" input
-			(at 126.492 114.3 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "02e792ef-5d9d-474a-bb4c-3ff56adceab5")
-		)
-		(pin "Actuator_IN1" input
-			(at 126.492 112.395 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "84e9b647-dc0d-4029-8a9d-c4d21295dca1")
-		)
-		(pin "LoRa_TX" input
-			(at 126.492 118.745 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "af3cfb69-bf5f-44cd-8f1f-a87d5606c5fe")
-		)
-		(pin "LoRa_RX" input
-			(at 126.492 120.65 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "73a7ec6f-01f3-4e2b-b466-b3df614739fd")
-		)
-		(pin "GoPro_ON" input
-			(at 126.492 125.095 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "af501781-8ebb-4fe0-a28f-4d81b3f38f12")
+			(uuid "9ddde251-22cc-496a-8a6c-ba577c14ad65")
 		)
 		(instances
 			(project "A1-FlightComputer"
@@ -989,8 +834,8 @@
 		)
 	)
 	(sheet
-		(at 76.454 39.37)
-		(size 31.623 91.44)
+		(at 76.454 43.18)
+		(size 31.623 58.42)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1001,7 +846,7 @@
 		)
 		(uuid "e4877fc3-9e28-4e90-bc65-7a6d47fa4f14")
 		(property "Sheetname" "STM32"
-			(at 76.454 38.6584 0)
+			(at 76.454 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,7 +855,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32.kicad_sch"
-			(at 76.454 131.3946 0)
+			(at 76.454 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +864,7 @@
 			)
 		)
 		(pin "I2C_SDA" input
-			(at 108.077 88.9 0)
+			(at 108.077 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,7 +874,7 @@
 			(uuid "b608042c-98c5-4022-a7c1-f7c4f56e4698")
 		)
 		(pin "I2C_SCl" input
-			(at 108.077 86.995 0)
+			(at 108.077 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,48 +923,8 @@
 			)
 			(uuid "d97f0ded-7a34-4ad8-b3ea-597c7b781ddd")
 		)
-		(pin "STG0" input
-			(at 108.077 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "33aec379-f9e2-47ea-a790-69b9e8291a8f")
-		)
-		(pin "STG1" input
-			(at 108.077 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4ddcfe1c-594f-45b2-b7c2-948d054a8f76")
-		)
-		(pin "STG2" input
-			(at 108.077 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "40274dd0-ece0-4a40-a947-8abf4bf737b1")
-		)
-		(pin "STG3" input
-			(at 108.077 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d11159db-2066-4875-a324-70f1bcb01bd2")
-		)
 		(pin "BME_INT" input
-			(at 108.077 97.79 0)
+			(at 108.077 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +934,7 @@
 			(uuid "3244ed9e-3abe-4a3b-b0f3-b9b350aba95a")
 		)
 		(pin "BME_CS" input
-			(at 108.077 99.695 0)
+			(at 108.077 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +944,7 @@
 			(uuid "3e17d4ca-38f0-4c52-8486-8dda04b01180")
 		)
 		(pin "LSM_INT2" input
-			(at 108.077 104.775 0)
+			(at 108.077 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +954,7 @@
 			(uuid "bb01a5cb-386a-495d-be6c-4a61bffd25c7")
 		)
 		(pin "LSM_INT1" input
-			(at 108.077 102.87 0)
+			(at 108.077 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,18 +963,8 @@
 			)
 			(uuid "289dbd64-46b8-43fc-8d98-9c7d92fb0dec")
 		)
-		(pin "Payload_TEMP" input
-			(at 108.077 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c3c6cefd-cbc3-495a-83fd-0614890fc950")
-		)
 		(pin "ADX_INT1" input
-			(at 108.077 92.075 0)
+			(at 108.077 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +974,7 @@
 			(uuid "3406a790-fff4-47a9-b0fc-1803038157fa")
 		)
 		(pin "ADX_INT2" input
-			(at 108.077 93.98 0)
+			(at 108.077 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,56 +992,6 @@
 				(justify right)
 			)
 			(uuid "f818a0b0-d23e-42c4-9a42-4a29f073fb0d")
-		)
-		(pin "Actuator_IN2" input
-			(at 108.077 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "37773f2f-92e9-4a8b-86e0-503c1a1c8bdd")
-		)
-		(pin "Actuator_IN1" input
-			(at 108.077 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7f5badf8-b8f1-4718-aa99-30d0e7f21821")
-		)
-		(pin "LoRa_TX" input
-			(at 108.077 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "dbcf73e1-e37f-4e4f-a4b8-2765cf0dea16")
-		)
-		(pin "LoRa_RX" input
-			(at 108.077 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "223ff0d1-f884-402d-8317-bb58f01ef4b6")
-		)
-		(pin "GoPro_ON" input
-			(at 108.077 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "518cd8ef-f459-4fdd-abd0-b1c61185cebb")
 		)
 		(pin "USB_D+" input
 			(at 108.077 50.8 0)
@@ -1267,6 +1012,16 @@
 				(justify right)
 			)
 			(uuid "01236aa2-97fa-4dda-b5a9-ffe2c2b7b697")
+		)
+		(pin "Buzzer_ON" input
+			(at 108.077 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d261f0f-f3f8-4eb0-a373-568c4be9f6c8")
 		)
 		(instances
 			(project "A1-FlightComputer"

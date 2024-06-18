@@ -23765,6 +23765,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "1"
+		(at 125.6 62.85 90)
+		(layer "F.SilkS")
+		(uuid "28afd735-f4ad-47c5-b016-16ef59941516")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "I2C"
 		(at 187.4 88.3 0)
 		(layer "F.SilkS")
@@ -24190,6 +24202,18 @@
 			)
 		)
 	)
+	(gr_text "0"
+		(at 125.6 69.3 90)
+		(layer "F.SilkS")
+		(uuid "eb6d38d6-9ece-4a9b-8d14-8afe9bf82790")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+3.3V"
 		(at 137.05 53.05 0)
 		(layer "F.SilkS")
@@ -24200,6 +24224,18 @@
 				(thickness 0.15)
 				(bold yes)
 			)
+		)
+	)
+	(gr_text "BOOT0 Switch"
+		(at 122.2 59.3 0)
+		(layer "F.SilkS")
+		(uuid "f5d09aae-dac0-4a38-a557-613f7399fe3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "SCL"
